@@ -3,6 +3,7 @@ from setuptools import setup
 setup(name="synapy",
       version="0.1",
       description="Synapy, a synaptic matrix implementation for Python",
+      license="MIT",
       url='http://github.com/lantunes/synapy',
       author="Luis M. Antunes",
       author_email="lantunes@gmail.com",

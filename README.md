@@ -15,7 +15,7 @@ A synaptic matrix requires a vector input of a specified length. Ideally, the ve
   ```python
   synaptic_matrix = SupervisedSynapticMatrix(9, b=1, c=2, k=10)
   ```
-  In the snippet above, a synaptic matrix is initialized that accepts input vectors of length 9. Other hyperparameters are also specified.
+  In the snippet above, a synaptic matrix is initialized that accepts input vectors of length 9. The synaptic matrix's hyperparameters are denoted by the variables _b_, _c_, and _k_. These are constants used while updating the weights of synapses. For more information about these constants, see [Chapter 3 of Arnold Trehub's book *The Cognitive Brain*](http://people.umass.edu/trehub/thecognitivebrain/chapter3.pdf).
 
   Next, it must be trained in a supervised fashion:
   ```python
